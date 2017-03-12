@@ -11,9 +11,6 @@ namespace GeometryLib.Shapes
     /// </summary>
     public abstract class Shape : IPrintable
     {
-        public string Print()
-        {
-            throw new NotImplementedException();
-        }
+        public abstract string Print();
     }
 }

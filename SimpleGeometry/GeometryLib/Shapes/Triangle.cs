@@ -26,5 +26,10 @@ namespace GeometryLib.Shapes
             Side2 = side2;
             Side3 = side3;
         }
+
+        public override string Print()
+        {
+            return ($"Triangle: sides: {this.Side1} {this.Side2} {this.Side3}, area = {this}");
+        }
     }
 }
