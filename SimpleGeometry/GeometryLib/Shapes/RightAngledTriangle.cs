@@ -29,7 +29,7 @@ namespace GeometryLib.Shapes
         {
             var info = "Right-angled Triangle: ";
             info += $"sides {this.Side1} {this.Side2} {this.Side3}, ";
-            info += $"area = {this}";
+            info += $"area = {this.Area()}";
             return info;
         }
     }

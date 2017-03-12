@@ -29,7 +29,7 @@ namespace GeometryLib.Shapes
         }
 
         public override string Print() {
-            return ($"Circle: radius = {this.Radius}, area = {this}");
+            return ($"Circle: radius = {this.Radius}, area = {this.Area()}");
         }
     }
 }
