@@ -21,7 +21,7 @@ namespace GeometryLib.Shapes
         {
             var info = "Right-angled Triangle: ";
             info += $"sides {this.Side1} {this.Side2} {this.Side3}, ";
-            info += $"area = {this.Area()}";
+            info += $"area = {this}";
             return info;
         }
     }
